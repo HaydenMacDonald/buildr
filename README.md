@@ -1,2 +1,3 @@
 # buildr
-Package for the Building R Packages course
+
+My package for the Building R Packages course
