@@ -1,11 +1,10 @@
-Package: buildr
+Package: farsr
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Imports, summarizes & visualizes traffic accident data in USA
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: Hayden MacDonald <hmd123@gmail.com>
+Maintainer: Hayden MacDonald <hmd123@gmail.com>
+Description: This package imports, summarizes and visualizes traffic accident data from the US National Highway Traffic Safety Administration's Fatality Analysis Reporting System.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

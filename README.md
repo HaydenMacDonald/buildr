@@ -7,6 +7,7 @@ My package for the Building R Packages course final project.
 ## Overview
 
 This package imports, summarizes and visualizes traffic accident data from the US National Highway Traffic Safety Administration's **Fatality Analysis Reporting System**.  
+
 This data contains yearly nationwide records describing fatal injuries from motor vehicle accidents across the United States.  
 
 ## Installation
@@ -22,9 +23,8 @@ devtools::install_github("HaydenMacDonald/buildr")
 ``` r
 library(buildr)
 
-
 # Read in data file in csv format and convert to tibble 
-fars_read("data.csv")
+fars_read("accident_2013.csv")
 
 # Create a filename given a provided year(s)
 make_filename(2018)
