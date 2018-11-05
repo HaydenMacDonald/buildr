@@ -1,4 +1,4 @@
-# FARS
+# farsr
 
 [![Build Status](https://travis-ci.org/HaydenMacDonald/buildr.svg?branch=master)](https://travis-ci.org/HaydenMacDonald/buildr)
 
