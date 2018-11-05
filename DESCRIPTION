@@ -8,6 +8,5 @@ Description: This package imports, summarizes and visualizes traffic accident da
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-Depends: R (>= 3.1.0)
+Depends: R (>= 3.5.1)
 Imports: dplyr, readr, tidyr, magrittr, maps, graphics
-Suggests: testthat
