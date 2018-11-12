@@ -32,7 +32,7 @@ fars_read <- function(filename) {
 #' This function takes a single value, vector or list representing a four integer year. The function prints
 #' a character string with the following format: "accident_[year].csv.bz2" for each value provided.
 #'
-#' @param year An numeric value of any length
+#' @param year A numeric value of any length
 #'
 #' @return This function produces a side effect by printing the generated filename as a character string
 #'
