@@ -15,8 +15,8 @@ This function returns a dataset in tibble format. As a side effect, this functio
 }
 \description{
 This is a function that imports a comma-separated values file from the working directory
-via \link{\code{read_csv}} from \code{readr}. After import, the data object is converted
-to tibble format via \link{\code{tbl_df}} from \code{dplyr}.
+via \code{read_csv} from \code{readr}. After import, the data object is converted
+to tibble format via \code{tbl_df} from \code{dplyr}.
 }
 \note{
 If the file does not exist in the working directory, the function will return an error.

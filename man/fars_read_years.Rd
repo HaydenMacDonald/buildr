@@ -15,9 +15,9 @@ This function has a side effect that returns a list of tibbles with two columns:
 \description{
 This function takes a list of numeric values and returns a list of tibbles
 containing the MONTH and year columns only. The list of numeric values are
-translated to filenames via \link{\code{make_filename}} and the filenames are used
-to read in the corresponding csv files via \link{\code{fars_read}}. The tibbles
-returned by \link{\code{fars_read}} are reduced to the MONTH and year columns only.
+translated to filenames via \code{make_filename} and the filenames are used
+to read in the corresponding csv files via \code{fars_read}. The tibbles
+returned by \code{fars_read} are reduced to the MONTH and year columns only.
 }
 \note{
 If the argument of the years is not a list or if the list of tibbles cannot be executed,

@@ -13,7 +13,7 @@ fars_summarize_years(years)
 This function returns a summary data frame in wide format as a side effect.
 }
 \description{
-This function summarizes the list of tibbles returned by \link{\code{fars_read_years}}.
+This function summarizes the list of tibbles returned by \code{fars_read_years}.
 The function aggregates the list of tibbles into a single tibble, creates groups by year
 and MONTH, counts the number of observations into a new column "n", and returns the summary
 tibble in wide format.
