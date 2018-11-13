@@ -1,4 +1,7 @@
 \name{make_filename}
+\alias{make_filname}
+\alias{fars_read}
+\alias{fars_read_years}
 \title{FARS MAKE FILENAME}
 
 \description{
@@ -9,7 +12,9 @@ This function takes a single value, vector or list representing a four integer y
 make_filename(year)
 }
 
-\item{year}{An numeric value of any length}
+\arguments{
+  \item{year}{An numeric value of any length}
+}
 
 \examples{ \dontrun{
 make_filename(2013)
