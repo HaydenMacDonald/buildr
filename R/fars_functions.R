@@ -65,6 +65,7 @@ make_filename <- function(year) {
 #'    the function will return an error, specifying which year could not be returned.
 #'
 #' @importFrom dplyr mutate select
+#' @importFrom magrittr %>%
 #'
 #' @export
 fars_read_years <- function(years) {
@@ -96,8 +97,9 @@ fars_read_years <- function(years) {
 #' \dontrun{years <- list(2013, 2014, 2015)
 #' fars_summarize_years(years = years)}
 #'
-#' @importFrom dplyr bind_rows group_by summarize
+#' @importFrom dplyr bind_rows group_by summarize n
 #' @importFrom tidyr spread
+#' @importFrom magrittr %>%
 #'
 #' @export
 fars_summarize_years <- function(years) {
