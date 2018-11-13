@@ -1,8 +1,8 @@
 #' Read in data file in csv format and convert to tibble
 #'
 #' This is a function that imports a comma-separated values file from the working directory
-#' via \link{\code{read_csv}} from \code{readr}. After import, the data object is converted
-#' to tibble format via \link{\code{tbl_df}} from \code{dplyr}.
+#' via \code{read_csv} from \code{readr}. After import, the data object is converted
+#' to tibble format via \code{tbl_df} from \code{dplyr}.
 #'
 #' @param filename A character vector matching the name of the file to be imported
 #'
@@ -49,9 +49,9 @@ make_filename <- function(year) {
 #'
 #' This function takes a list of numeric values and returns a list of tibbles
 #' containing the MONTH and year columns only. The list of numeric values are
-#' translated to filenames via \link{\code{make_filename}} and the filenames are used
-#' to read in the corresponding csv files via \link{\code{fars_read}}. The tibbles
-#' returned by \link{\code{fars_read}} are reduced to the MONTH and year columns only.
+#' translated to filenames via \code{make_filename} and the filenames are used
+#' to read in the corresponding csv files via \code{fars_read}. The tibbles
+#' returned by \code{fars_read} are reduced to the MONTH and year columns only.
 #'
 #' @param years A list of numeric values matching the corresponding csv files to import
 #'
@@ -83,7 +83,7 @@ fars_read_years <- function(years) {
 
 #' Summarize a list of tibbles by observation counts
 #'
-#' This function summarizes the list of tibbles returned by \link{\code{fars_read_years}}.
+#' This function summarizes the list of tibbles returned by \code{fars_read_years}.
 #' The function aggregates the list of tibbles into a single tibble, creates groups by year
 #' and MONTH, counts the number of observations into a new column "n", and returns the summary
 #' tibble in wide format.
