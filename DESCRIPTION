@@ -11,3 +11,4 @@ LazyData: true
 Depends: R (>= 3.5.0)
 Imports: dplyr, readr, tidyr, magrittr, maps, graphics
 Suggests: testthat
+RoxygenNote: 6.1.0
